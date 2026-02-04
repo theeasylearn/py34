@@ -9,7 +9,7 @@ write a program to convert user given fahrenheit into celsius and then display r
 
 List
 ---------------
-create a list to store your favourite destination in india
+create a list to store your favorite destination in india & display it 
 create a list & store 10 different type of values in it 
     print all values 
     print 1st value 
