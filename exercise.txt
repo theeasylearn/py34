@@ -151,8 +151,7 @@ if else
 
 
 if else if decision making 
-1) 
-Write a program that takes a 5 subject marks from user. calculate total and Percentage  and prints the grade using the following conditions:
+1) Write a program that takes a 5 subject marks from user. calculate total and Percentage  and prints the grade using the following conditions:
 
 | Percentage | Grade |
 | ---------- | ----- |
@@ -165,8 +164,8 @@ Write a program that takes a 5 subject marks from user. calculate total and Perc
 ----------------------------------------
 
 2) write a program to accept 2 number from user. and accept choice for operations.
-operations will be addition, subtraction, multiplication, division
-do operation and display result as per user choice about operation using if elif else statements.
+operations will be addition, subtraction, multiplication, division.
+do operation and display result as per user choice about operation.
 
 3) write a program to accept month number from user and display how many days month has. (use logical operator or)
     input : 1 output : this month has 31 days 

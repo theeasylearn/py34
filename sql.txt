@@ -1,0 +1,9 @@
+insert into 
+-----------------------------
+insert into  products VALUES (NULL,'PNCL1001','Dark pencil','good for drawing','Stationery','Natraj',100,80,1000,50.99,1,'2025-12-15',0)
+
+insert into  products VALUES (NULL,'NTBK1003','NoteBook 2','200 page 100 GSM noot book','Stationery','Navneet',50,40,2000,70.29,1,'2025-06-30',NOW())
+
+2ND syntax 
+----------------
+insert into products (product_code,name,description,category,brand,price,cost_price,weight) values ('BLPN1004','Rotomac Ballpen','dark blue pen','Stationery','Rotomac',25,15,29.25)
