@@ -15,3 +15,25 @@
     4) calculate net income using gross annual income and tax 
     5) display gross income, tax, net income
 '''    
+monthly_income = int(input("enter monthly income"))
+#check monthly income is above 0 or not 
+if monthly_income>0: #outer decision making
+    annual_income = monthly_income * 12 
+    tax = 0 
+    # inner decision making statement
+    if annual_income>2400000:
+        tax = (annual_income * 30) / 100
+    elif annual_income>2000000:
+        tax = (annual_income * 25) / 100
+    elif annual_income>1600000:
+        tax = (annual_income * 20) / 100
+    elif annual_income>1200000:
+        tax = (annual_income * 15) / 100
+    else: 
+        tax = 0 
+
+    #calculate net income 
+    net_income = annual_income - tax 
+    print(f"Gross income = {annual_income} tax = {tax} net income = {net_income}")
+else:
+    print("invalid monthly income")
